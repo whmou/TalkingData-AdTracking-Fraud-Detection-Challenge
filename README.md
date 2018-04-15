@@ -11,14 +11,6 @@ cd main/feature_insights/visualization/
 python data_insights.py ../../main/data/train_sample.csv 
 # output png files are in the output folder
 ```
-  - Feature Boxplots: <br/>
-  ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
-![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_boxplot_amount_classes.png)
-![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
-![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/device_boxplot_amount_classes.png)
-![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_boxplot_amount_classes.png)
-![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/channel_boxplot_amount_classes.png)
-
   - Feature Heat Map: <br/>
   ![Heat Map](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/corr_heat_map.png)
   - Feature Pair Map: <br/>
@@ -29,5 +21,13 @@ python data_insights.py ../../main/data/train_sample.csv
 ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/device_histgram_amount_classes.png)
 ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_histgram_amount_classes.png)
 ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/channel_histgram_amount_classes.png)
+
+  - Feature Boxplots: <br/>
+  ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/a
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/dev
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/cha
 
 

@@ -6,12 +6,12 @@ Include 2 main parts:
 - Classifiers Comparison
 # Data Exploration
 ## Usage
-```python
+```console
 cd main/feature_insights/visualization/
 python data_insights.py ../../main/data/train_sample.csv 
 # output png files are in the output folder
 ```
-  - Feature Boxplots:
+  - Feature Boxplots: <br/>
   ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
 ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_boxplot_amount_classes.png)
 ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
@@ -19,11 +19,11 @@ python data_insights.py ../../main/data/train_sample.csv
 ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_boxplot_amount_classes.png)
 ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/channel_boxplot_amount_classes.png)
 
-  - Feature Heat Map:
+  - Feature Heat Map: <br/>
   ![Heat Map](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/corr_heat_map.png)
-  - Feature Pair Map:
-  ![Pair Map](feature_insights/visualization/output/pair_plot.png)
- - Feature Histogram:
+  - Feature Pair Map: <br/>
+  ![Pair Map](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/pair_plot.png)
+ - Feature Histogram: <br/>
  ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_histgram_amount_classes.png)
 ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_histgram_amount_classes.png)
 ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/device_histgram_amount_classes.png)

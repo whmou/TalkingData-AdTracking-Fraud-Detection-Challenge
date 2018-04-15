@@ -1,1 +1,33 @@
 # TalkingData-AdTracking-Fraud-Detection-Challenge
+
+A deep diving into a kaggle competetion "TalkingData-AdTracking-Fraud-Detection-Challenge" (https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data)
+Include 2 main parts:
+- Data Exploration
+- Classifiers Comparison
+# Data Exploration
+## Usage
+```python
+cd main/feature_insights/visualization/
+python data_insights.py ../../main/data/train_sample.csv 
+# output png files are in the output folder
+```
+  - Feature Boxplots:
+  ![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_boxplot_amount_classes.png)
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_boxplot_amount_classes.png)
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/device_boxplot_amount_classes.png)
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_boxplot_amount_classes.png)
+![boxplot](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/channel_boxplot_amount_classes.png)
+
+  - Feature Heat Map:
+  ![Heat Map](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/corr_heat_map.png)
+  - Feature Pair Map:
+  ![Pair Map](feature_insights/visualization/output/pair_plot.png)
+ - Feature Histogram:
+ ![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/ip_histgram_amount_classes.png)
+![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/app_histgram_amount_classes.png)
+![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/device_histgram_amount_classes.png)
+![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/os_histgram_amount_classes.png)
+![histogram](https://github.com/whmou/TalkingData-AdTracking-Fraud-Detection-Challenge/blob/master/main/feature_insights/visualization/output/channel_histgram_amount_classes.png)
+
+

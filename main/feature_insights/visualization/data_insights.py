@@ -13,7 +13,7 @@ class DataInsights(object):
 
     def __init__(self, file_path):
         self.file_path = file_path
-        self.df = pd.read_csv(csv_file_name)
+        self.df = pd.read_csv(self.file_path)
         self.headers = [
             x for x in list(
                 self.df.columns.values) if 'time' not in x and 'is_attributed' not in x]
